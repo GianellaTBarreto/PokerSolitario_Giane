@@ -195,8 +195,6 @@ function mostrarResultado() {
         } else {
             document.getElementById('resultado').textContent = 'Juego Finalizado';
             reiniciarJuego();
-            pozoJugador =0;
-            pozoPC=0;
         }
     }, 3000); 
 }
@@ -294,6 +292,8 @@ function reiniciarJuego() {
     document.getElementById('botonJugar').style.display = 'block';
     document.getElementById('cartas-jugador').innerHTML = ''; // Limpiar cartas del jugador
     cartasSeleccionadas.clear(); // Resetear cartas seleccionadas
+    pozoJugador =0;
+    pozoPC=0;
 }
 
 // Inicializar el juego
