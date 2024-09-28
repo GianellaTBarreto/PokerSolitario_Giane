@@ -1,0 +1,116 @@
+/*  
+<uniquifier>: Use a unique and descriptive class name 
+<weight>: Use a value from 300 to 700
+*/
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #313F54;  
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    color: #f7f4f4;
+    font-family: "Quicksand", sans-serif ;
+    font-weight: 100;
+    font-size: 90px;
+}
+#cartas-jugador, #apuestas,#botonInicio, #cambio-cartas{
+    display: flex;
+    justify-content: space-around;
+}
+#botonJugar{
+    padding: 20px 80px;
+    margin-top: 200px;
+    font-weight:100;
+    font-size: 50px;
+    font-family: "Quicksand", sans-serif ;
+    background-color:#D4D3D1 ;
+    color: #313F54;
+    border:  2px solid #D4D3D1;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.carta{
+    margin-top: 100px;
+    margin: 0px ;
+    padding: 100px 50px;
+    font-weight:100;
+    font-size: larger;
+    font-family: "Quicksand", sans-serif ;
+    background-color:#D4D3D1 ;
+    color: #313F54;
+    border:  9px solid #877D6A;
+    border-radius: 20px;
+    animation: all  0.3s ease;
+}
+.carta:hover {
+    background-color: #D4D3D1;
+    color: #313F54;
+    border: 9px solid #D4D3D1;
+    cursor: pointer;
+}
+
+#botonSee, #botonRaise, #botonFold{
+    padding: 20px 30px;
+    margin: 50px;
+    font-weight:100;
+    font-size: larger;
+    font-family: "Quicksand", sans-serif ;
+    background-color:#877D6A ;
+    color: #D4D3D1;
+    border:  2px solid #877D6A;
+    border-radius: 30px;
+    transition: none ;
+}
+#botonCambiar{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px 50px;
+    font-weight:100;
+    font-size: large;
+    font-family: "Quicksand", sans-serif ;
+    background-color:#D4D3D1 ;
+    color: #313F54;
+    border:  1px solid #877D6A;
+    border-radius: 20px;
+}
+#botonCambiar:hover {
+    background-color:#877D6A ;
+    color: #D4D3D1;
+    border:  1px solid #877D6A;
+}
+#botonSee:hover, #botonRaise:hover, #botonFold:hover {
+    background-color:#D4D3D1 ;
+    color: #313F54;
+    border:  2px solid #D4D3D1;
+    cursor: pointer;
+}
+#pozo{
+    display: flex;
+    justify-content: left;
+    margin: 50px;
+    color: #f7f4f4;
+    font-family: "Quicksand", sans-serif ;
+    font-weight: 100;
+    font-size: 25px;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: #313F54;
+    background-color: #f5f4f4;
+    font-family: "Quicksand", sans-serif ;
+    font-weight: 100;
+    font-size: 50px;
+}
